@@ -655,7 +655,8 @@ hr {
     color: #FFF; }
 
 .home {
-  width: 140px; }
+  margin: auto;
+  width: 100%; }
 
 .newer {
   position: absolute;
