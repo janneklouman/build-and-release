@@ -1,3 +1,34 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseUrl = "http://build-and-release.ninja"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Build and Release Ninja"
+
+# Define how many pages appear per site
+paginate = 10
+
+# Enable comments powered by Disqus by entering your disqus shortname
+disqusShortname = "andreydevyatkin"
+
+[params]
+  site_author = "Andrey Devyatkin"
+  site_description = "Andrey's personal blog about automation of life and software development in particular."
+  location = "Earth"
+  # All paths are relative to the baseurl. Put your files
+  # somewhere in the static folder.
+  avatar = "images/profile.jpg"
+  header_background = ""
+  header_title = "Customizable header title"
+  copyright = "Powered by [Hugo](http://gohugo.io)."
+
+  # Enable gogle analytics by entering your tracking code
+  google_analytics = ""
+
+[social]
+  # Add your social network accounts to the profile section on the left
+  # by entering your username. The links to your account will be
+  # create automatically.
+  twitter   = "andrey9kin"
+  facebook  = "andrey.devyatkin"
+  linkedin  = "andreydevyatkin"
+  instagram = "andrey9kin"
+  github    = "andrey9kin"
+  gplus     = ""
