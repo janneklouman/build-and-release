@@ -10,6 +10,10 @@
 <li><a href="//linkedin.com/in/{{.}}" class="icon-linkedin" target="_blank" title="Linkedin"></a></li>
 {{ end }}
 
+{{ with .Site.Social.gplus }}
+<li><a href="//plus.google.com/+{{.}}" class="icon-gplus" target="_blank" title="Google+"></a></li>
+{{ end }}
+
 {{ with .Site.Social.behance }}
 <li><a href="//behance.net/{{.}}" class="icon-behance" target="_blank" title="Behance"></a></li>
 {{ end }}
@@ -24,8 +28,4 @@
 
 {{ with .Site.Social.github }}
 <li><a href="//github.com/{{.}}" class="icon-github" target="_blank" title="Github"></a></li>
-{{ end }}
-
-{{ with .Site.Social.gplus }}
-<li><a href="//plus.google.com/+{{.}}" class="icon-gplus" target="_blank" title="Google+"></a></li>
 {{ end }}
