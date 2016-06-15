@@ -497,12 +497,10 @@ hr {
   float: right; }
 
 .site-header {
-  background: #2a373d url(../img/header-bg.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: #fff;
   text-align: center;
   position: relative;
   width: 100%;
@@ -514,17 +512,15 @@ hr {
   vertical-align: middle;
 }
 
+.site-header video {
+  z-index: -1;
+}
+
 .site-header h2 {
   margin: 0;
   font-size: 74px;
   vertical-align: middle;
   font-weight: 500;
-}
-
-.transparent-layer {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(34, 34, 34, 0.6);
 }
 
 .site-header h2 .logo {
