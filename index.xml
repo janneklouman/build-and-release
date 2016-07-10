@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Build and Release Ninja</title>
+    <link>http://build-and-release.ninja/</link>
+    <description>Recent content on Build and Release Ninja</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Apr 2016 20:31:57 +0200</lastBuildDate>
+    <atom:link href="http://build-and-release.ninja/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>even more</title>
+      <link>http://build-and-release.ninja/post/even-more/</link>
+      <pubDate>Sat, 30 Apr 2016 20:31:57 +0200</pubDate>
+      
+      <guid>http://build-and-release.ninja/post/even-more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>more</title>
+      <link>http://build-and-release.ninja/post/more/</link>
+      <pubDate>Sat, 30 Apr 2016 20:31:52 +0200</pubDate>
+      
+      <guid>http://build-and-release.ninja/post/more/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>getting started</title>
+      <link>http://build-and-release.ninja/post/getting-started/</link>
+      <pubDate>Sat, 30 Apr 2016 20:28:22 +0200</pubDate>
+      
+      <guid>http://build-and-release.ninja/post/getting-started/</guid>
+      <description>
+
+&lt;h1 id=&#34;opa&#34;&gt;Opa&lt;/h1&gt;
+
+&lt;h2 id=&#34;opa-pa&#34;&gt;Opa pa!&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
