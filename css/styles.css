@@ -453,7 +453,9 @@ body {
   color: #222222;
   font-family: "Noto Serif", serif;
   font-weight: 400;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  overflow-x: hidden;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
@@ -503,9 +505,12 @@ hr {
   background-size: cover;
   text-align: center;
   position: relative;
-  width: 100%;
+  width: 100vw;
   display: table;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  padding: 0;
+  margin: 0;
+}
 
 .site-header div {
   display: table-cell;
@@ -514,6 +519,10 @@ hr {
 
 .site-header video {
   z-index: -1;
+  width: 100vw;
+  position: relative;
+  display: table;
+  transition: all 0.3s ease;
 }
 
 .site-header h2 {
@@ -735,10 +744,6 @@ body.post-template .site-header h2 .logo {
   .container {
     width: 100%; }
 
-  .site-header div {
-      height: 400px;
-  }
-
   .site-header h2 {
       font-size: 56px;
   }
@@ -760,10 +765,6 @@ body.post-template .site-header h2 .logo {
     height: 180px;
     transition: all 0.3s ease; }
 
-
-  .site-header div {
-    height: 180px;
-  }
   .site-header h2 {
     font-size: 36px;
     background-size: 90px 74px; } }
