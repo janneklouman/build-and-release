@@ -33,3 +33,6 @@
     label_input_email_first_line = "The automation blog"
     label_input_email_second_line = "Sign up here for our newsletter"
     label_input_submit = "Subscribe"
+
+[footer]
+    copyright = "Copyright"

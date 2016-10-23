@@ -1,0 +1,13 @@
+/* Uppercase */
+.uc {
+
+    text-transform  : uppercase;
+
+}
+
+/* Clearfix */
+.cf {
+
+    clear           : both;
+
+}

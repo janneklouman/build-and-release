@@ -1,0 +1,15 @@
+.main-footer {
+
+    background          : url(../images/background-footer.png) top center no-repeat #393029;
+    height              : 100px;
+    color               : #f3ebd1;
+    font-family         : 'BrandonGrotesque-Bold', sans-serif;
+    padding             : 40px 0 0 0;
+
+}
+
+.main-footer span {
+
+    display             : block;
+
+}
