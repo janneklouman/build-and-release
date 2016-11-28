@@ -1,5 +1,17 @@
 <article class="post">
-    {{ partial "article-header" . }}
-    <p>{{ printf "%s" .Summary | markdownify }}&hellip;</p>
-    <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Site.Data.l10n.article.read_more }} &raquo;</a>
+    {{ if .Params.icon }}
+        <img class="post-icon" src="{{ .Site.BaseURL }}/images/{{ .Params.icon }}" alt="{{ .Params.icon }}">
+    {{ end }}
+    <div class="post-content">
+        {{ partial "article-header" . }}
+        <p class="post-text">
+            {{ if .Params.image }}
+            <img class="post-image" src="{{ .Site.BaseURL }}/images/{{ .Params.image }}" alt="{{ .Params.image }}">
+            {{ end }}
+
+            {{ printf "%s" .Summary | markdownify }}&hellip;
+        </p>
+        <div class="cf"></div>
+        <a class="read-more" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Site.Data.l10n.article.read_more }} &raquo;</a>
+    </div>
 </article>
