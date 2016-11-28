@@ -78,8 +78,14 @@
 
 .icon-holder {
 
-    width           : 20px;
+    width           : 30px;
     display         : inline-block;
+
+}
+
+.author ul.social li a {
+
+    padding         : 0 2px;
 
 }
 
