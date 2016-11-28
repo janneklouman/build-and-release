@@ -19,6 +19,7 @@ disqusShortname = "andreydevyatkin"
   header_title = "Customizable header title"
   copyright = "Powered by [Hugo](http://gohugo.io)."
   title = "Build & Release"
+  subtitle = "By Andrey Devyatkin"
 
   # Enable gogle analytics by entering your tracking code
   google_analytics = ""

@@ -1,10 +1,15 @@
 <aside class="author uc">
+    <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="author-before" width="100" height="100">
+        <path fill="#393029" d="M0,100 L10,30 L25,0 L40,0 L90,40 L100,100 Z" />
+    </svg>
     <div class="author-inner">
-    <img class="profile-image" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="{{ .Site.Params.site_author }}" />
-    <p class="name">{{ .Site.Params.title }}</p>
-        <ul class="social">
-            {{ partial "social" . }}
-        </ul>
-    <p>{{ .Site.Data.l10n.author.presentation }}</p>
+        <img class="profile-image" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="{{ .Site.Params.site_author }}" />
+        <h2 class="profile-title">{{ .Site.Params.title }}</h2>
+        <h3 class="profile-sub-title">{{ .Site.Params.subtitle }}</h3>
+        {{ partial "social" . }}
+        <p class="profile-description">{{ .Site.Data.l10n.author.presentation }}</p>
     </div>
+    <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="author-after" width="100" height="100">
+        <path fill="#393029" d="M0,0 L20,100 L80,80 L95,60 L100,0 Z" />
+    </svg>
 </aside>
